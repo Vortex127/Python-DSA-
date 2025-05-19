@@ -1,10 +1,10 @@
-print("Hello");
+# print("Hello");
 
 # age_str = "25"
 # age = int(age_str)
 # print("you are " + str(age) + " years old")
 
-# data types and typecasting basics
+# # data types and typecasting basics
 
 age_str = "25"
 age = int(age_str)
@@ -22,4 +22,18 @@ print(rounded)
 print(bool(0))
 print(bool("Hello"))
 print(bool(""))
+
+#user input:
+
+# name = input("Enter your name: ")
+# print("Hello " + name + ", how are you")
+
+
+#user input with is always string so for any other data type, you'll have to convert it
+
+age = int(input("What's your age?: "))
+print("You'll be turning ", age + 5  ,"this year")
+
+
+
 
